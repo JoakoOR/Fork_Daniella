@@ -1,0 +1,100 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1280px;
+    margin: 0%;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 80px;
+    margin: 0%;
+    padding: 20px;
+}
+
+figure {
+    height: 700px;
+    width: 100%; 
+    margin: 0%;
+    background-image: url("../imgs/bg-header.jpg");
+    
+}
+
+main{
+    overflow: auto;
+    text-align: center;
+    padding: 1%;
+    background-color: black;
+     width: 100%; 
+    margin: 0%;
+}
+
+main img{
+float: right;
+width: 400px;
+height: 202px;
+padding-right: 7em;
+padding-top: 2em;
+}
+
+main p{
+    width: 40%;
+    /* padding: 8em; */
+    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-left: 3em;
+    margin: 0%;
+    color: white;
+    text-align: justify;
+}
+
+section {
+    text-align: center;
+    border: 1px solid #1E1A13;
+    background-color:#1E1A13;
+    color: white;
+    
+    /* display: flow-root; */
+}
+
+section div {
+    width: 30%;
+    display:inline-block;
+   /* float:left; */
+    padding: 1%;
+}
+
+/* estilos de los iconos */
+section i {
+    padding: 1em;
+    font-size: xx-large;
+}
+
+/* estilos delos parrafos */
+
+section h2 {
+    text-align: center;
+}
+
+article {
+    background-color: black;
+    padding: 50px;
+    padding-left: 12%;
+}
+
+article img{
+   width: 316px;
+   height: 202px;
+   margin-right: 1em;
+}
+
+footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
